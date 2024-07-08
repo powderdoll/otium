@@ -165,11 +165,11 @@ body {
 }
 @keyframes mymove{
     from {left: -100px;}
-    to {left: 500px;}
+    to {left: 400px;}
   }
   @keyframes mymover{
     from {right: -100px;}
-    to {right: 600px;}
+    to {right: 500px;}
   }
 .copy_right_wrap {
     position: absolute;
