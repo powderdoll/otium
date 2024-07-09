@@ -241,15 +241,30 @@ body {
 
 #section2 {
     background-color: #F3F4E8;
-    padding: 100px 0;
-    width: 1920px;
-    margin: 0 auto;
-    background-image: url("../images/main/main_bg_1.png"), url("../images/main/main_bg_2.png");
-    background-position: left -60px top 70px, right -80px bottom -70px;
-    background-repeat: no-repeat;
-    /* position: relative; */
+    /* padding: 100px 0; */
+    overflow: hidden;
+    height: 1000px;
+    position: relative;
 }
-
+.section2_contents{
+    width: 1920px;
+    position: absolute;
+    left: 50%;
+    top: 70px;
+    margin-left: -960px;
+}
+/* .program_bg1{
+    position: absolute;
+    left: 80px;
+    top: 550px;
+    z-index: 999;
+} */
+.program_bg2{
+    position: absolute;
+    right: -80px;
+    top: 500px;
+    z-index: 999;
+}
 .program {
     display: flex;
     justify-content: center;
@@ -273,7 +288,7 @@ body {
     position: relative;
     overflow: hidden;
     margin-left: 20px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .program li .cover {
@@ -341,8 +356,9 @@ body {
 
 #section4 {
     /* padding: 100px 0; */
-    width: 1920px;
-    margin: 100px auto;
+    overflow: hidden;
+    height: 550px;
+    position: relative;
 }
 
 .sub_banner {
@@ -353,6 +369,11 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 1920px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -960px;
 }
 
 .banner_text {
@@ -384,7 +405,6 @@ body {
 } */
 /* #section5 start */
 #section5 {
-    width: 1920px;
     margin: 100px auto;
 }
 
@@ -541,7 +561,6 @@ body {
 
 /* #section6 start */
 #section6 {
-    width: 1920px;
     margin: 100px auto;
 }
 
