@@ -319,7 +319,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader {
 
 .swiper-button-prev:after,
 .swiper-rtl .swiper-button-next:after {
-    content: url(../images/left_btn.png)
+    content: url(../images/main/left_btn.png)
 }
 
 .swiper-button-next,
@@ -330,7 +330,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader {
 
 .swiper-button-next:after,
 .swiper-rtl .swiper-button-prev:after {
-    content: url(../images/right_btn.png)
+    content: url(../images/main/right_btn.png)
 }
 
 .swiper-button-lock {
