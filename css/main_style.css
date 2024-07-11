@@ -101,10 +101,8 @@ body {
 }
 .header_wrap{
     background-color: rgba(0, 0, 0, 0.1);
-    width: 1920px;
     height: 100px;   
     margin: 0px auto;
-    /* border-bottom: #fff 1px solid; */
 }
 .inner_header {
     width: 1320px;
@@ -167,11 +165,11 @@ body {
 }
 @keyframes mymove{
     from {left: 0px;}
-    to {left: 200px;}
+    to {left: 290px;}
   }
   @keyframes mymover{
     from {right: 0px;}
-    to {right: 300px;}
+    to {right: 390px;}
   }
 .copy_right_wrap {
     position: absolute;
@@ -618,7 +616,7 @@ body {
 .footer_left {
     position: absolute;
     top: 30px;
-    left: 0;
+    left: 50px;
 }
 
 .footer_logo {

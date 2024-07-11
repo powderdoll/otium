@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+/* webfont */
+body,
+html,
+div,
+p,
+ul,
+ol,
+li,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea,
+select,
+option,
+strong,
+span,
+em,
+dl,
+dt,
+dd,
+table,
+th,
+td,
+tr,
+img,
+video {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/* body */
+
+body {
+    font-family: "Pretendard Variable", serif;
+    font-size: 17px;
+    line-height: 30px;
+    color: #1A3A25;
+}
+
+#wrap {
+    min-width: 1320px;
+}
+
+#header {
+    background: url(../images/sub1/about_banner_1.png) no-repeat center center;
+    height: 903px;
+    margin: 0 auto;
+    position: relative;
+}
+.header_wrap{
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 1920px;
+    height: 100px;   
+    margin: 0px auto;
+    /* border-bottom: #fff 1px solid; */
+}
+.inner_header {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav {
+    display: flex;
+
+}
+
+.gnb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-right: 100px; */
+    padding-top: 20px;
+}
+
+.logo_wrap {
+    margin: 0 50px;
+    padding-right: 100px;
+}
+
+.gnb li a {
+    display: block;
+    margin: 0 50px;
+    font-weight: 500;
+    font-size: 17px;
+    padding-bottom: 9px;
+    color: white;
+}
+
+.top_link {
+    display: flex;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.top_link li {
+    margin-left: 25px;
+}
+#top_banner{
+    position: absolute;
+    top: 450px;
+    left: 500px;
+}
+.top_title{
+    font-family: "EB Garamond", serif;
+    font-size: 40px;
+    font-weight: 200;
+    font-style: italic;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.top_sub_title{
+    font-family: "EB Garamond", serif;
+    font-size: 40px;
+    font-weight: 200;
+    font-style: italic;
+    color: #DCE9BD;
+    padding-bottom: 50px;
+}
+.top_text{
+    color: #fff;
+}
+#section1{
+    width: 1320px;
+    margin: 50px auto;
+
+}
+.section1_contents{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.section1_title{
+    font-family: "EB Garamond", serif;
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
+    padding-bottom: 50px;
+    text-align: center;
+}
+#section1 .left_wrap{
+    width: 500px;
+}
+#section1 .right_wrap{
+    width: 500px;
+}
