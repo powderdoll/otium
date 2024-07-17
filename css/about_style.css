@@ -65,10 +65,8 @@ body {
 }
 .header_wrap{
     background-color: rgba(0, 0, 0, 0.1);
-    width: 1920px;
     height: 100px;   
     margin: 0px auto;
-    /* border-bottom: #fff 1px solid; */
 }
 .inner_header {
     width: 1320px;
@@ -117,7 +115,7 @@ body {
 #top_banner{
     position: absolute;
     top: 450px;
-    left: 500px;
+    left: 400px;
 }
 .top_title{
     font-family: "EB Garamond", serif;
@@ -138,29 +136,365 @@ body {
 .top_text{
     color: #fff;
 }
+#container{
+    overflow: hidden;
+}
+
+/* section1 시작 */
 #section1{
     width: 1320px;
-    margin: 50px auto;
+    margin: 100px auto;
 
 }
 .section1_contents{
     display: flex;
     justify-content: center;
-    text-align: center;
-    flex-direction: column;
     align-items: center;
 }
 .section1_title{
     font-family: "EB Garamond", serif;
-    font-size: 30px;
-    font-weight: 200;
+    font-size: 36px;
+    font-weight: 400;
     font-style: italic;
     padding-bottom: 50px;
     text-align: center;
 }
 #section1 .left_wrap{
-    width: 500px;
+    width: 420px;
+    margin: 0 70px;
+    text-align: right;
+
 }
 #section1 .right_wrap{
-    width: 500px;
+    width: 420px;
+    margin: 0 70px;
+    text-align: left;
+}
+#section1 .img_wrap{
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+#section1 .img_wrap:hover{
+    transform: scale(0.9,0.9);
+}
+#section1 .img_wrap img{
+    display: block;;
+}
+/* section2 시작 */
+#section2,#section3,#section4 {
+    display: flex;
+    justify-content: space-between;
+}
+.center2{
+    width: 1320px;
+    margin: 50px auto;
+    position: relative;
+    height: 600px;
+}
+.balance_img {
+    position: absolute;
+    top: 0;
+    left: -295px;
+}
+#section2 .bg_box{
+    background-color: #F3F4E8; 
+    width: 1320px;
+    height: 500px;
+    position: absolute;
+    top: 50px;
+    left: 290px;
+    z-index: -2;
+    background-image: url(../images/sub1/about_bg_1.png);
+    background-repeat: no-repeat;
+    background-position: bottom -50px right -100px;
+}
+.balance_T{
+    color: #79604B;
+    position: absolute;
+    top: 150px;
+    left: 718px;
+}
+.balance_T .copy{
+    padding-top: 30px;
+    text-align: left;
+    font-family: "EB Garamond", serif;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+.balance_T .title{
+    font-size: 28px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+.balance_T .text{
+    padding-top: 40px;
+}
+/* section3 시작 */
+.center3{
+    width: 1320px;
+    margin: 50px auto;
+    position: relative;
+    height: 600px;
+}
+.focus_img {
+    position: absolute;
+    top: 0px;
+    right: -295px;
+}
+#section3 .bg_box{
+    background-color: #E7EBDD; 
+    width: 1320px;
+    height: 500px;
+    position: absolute;
+    top: 50px;
+    left: -290px;
+    z-index: -2;
+    background-image: url(../images/sub1/about_bg_2.png);
+    background-repeat: no-repeat;
+    background-position: bottom 20px left -50px;
+}
+.focus_T{ 
+    color: #1A3A25;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+.focus_T .copy{
+    padding-top: 30px;
+    text-align: left;
+    font-family: "EB Garamond", serif;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+.focus_T .title{
+    font-size: 28px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+.focus_T .text{
+    padding-top: 40px;
+}
+
+/* section4 시작 */
+
+.center4{
+    width: 1320px;
+    margin: 50px auto;
+    position: relative;
+    height: 600px;
+}
+.stay_img {
+    position: absolute;
+    top: 0px;
+    left: -295px;
+}
+#section4 .bg_box{
+    background-color: #F3F4E8; 
+    width: 1320px;
+    height: 500px;
+    position: absolute;
+    top: 50px;
+    left: 290px;
+    z-index: -2;
+    background-image: url(../images/sub1/about_bg_3.png);
+    background-repeat: no-repeat;
+    background-position: bottom -50px right -100px;
+}
+.stay_T{
+    color: #79604B;
+    position: absolute;
+    top: 150px;
+    left: 718px;
+}
+.stay_T .copy{
+    padding-top: 30px;
+    text-align: left;
+    font-family: "EB Garamond", serif;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+.stay_T .title{
+    font-size: 28px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+.stay_T .text{
+    padding-top: 40px;
+}
+/* section5 시작 */
+#section5{
+    width: 1320px;
+    margin: 100px auto;
+    height: 700px;
+    position: relative;
+    justify-content: space-evenly;
+    display: flex;
+}
+/* .center5{
+    width: 1320px;
+    margin: 0px auto;
+    height: 700px;
+    position: relative;
+    justify-content: space-evenly;
+    display: flex;
+} */
+#section5 h2 {
+    font-size: 36px;
+    font-weight: 400;
+    padding-bottom: 50px;
+    padding-left: 30px;
+
+}
+#section5 p{
+    padding-left: 30px;
+
+}
+.space_img1{
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+}
+.section5_T{
+    position: absolute;
+    top: 132px;
+    left: 425px; 
+}
+.section5_I{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 50px;
+    align-items: flex-start;
+}
+.section5_I img{
+    display: block;
+    margin-left: 30px;
+    box-sizing: border-box;
+}
+/* section6 시작 */
+#section6{
+    width: 1320px;
+    margin: 0px auto;
+    position: relative;
+    height: 600px;
+}
+.section6_T{
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+#section6 h2 {
+    font-size: 36px;
+    font-weight: 400;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+.teacher_wrap{
+    justify-content: space-between;
+    display: flex;
+}
+.teacher_wrap .img_wrap{
+    overflow: hidden;
+}
+.teacher_wrap li img{
+    display: block;
+    transition: transform 1s;
+}
+.teacher_wrap li img:hover{
+    transform: scale(1.2);
+}
+.teacher_wrap li{
+    display: block;
+    margin-left: 10px;
+}
+.teacher_wrap li p{
+    text-align: center;
+}
+.teacher_name{
+    font-weight: 600;
+    padding-top: 10px;
+}
+/* section7 시작 */
+#section7{
+    /* margin: 0px auto;
+    position: relative; */
+    background: url(../images/sub1/about_bg_4.png) no-repeat center bottom;
+    height: 450px;
+    overflow: hidden;
+}
+
+/* #footer start */
+#footer {
+    background-color: #1A3A25;
+    color: #fff;
+}
+
+.inner_footer {
+    width: 1320px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    position: relative;
+}
+
+.footer_left {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+.footer_logo {
+    position: absolute;
+    top: 160px;
+    left: 660px;
+}
+
+.footer_right {
+    position: absolute;
+    top: 30px;
+    left: 900px;
+}
+
+.footer_sns_wrap {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_sns_wrap a {
+    display: block;
+    margin-left: 10px;
+    text-align: right;
+    padding-top: 10px;
+}
+
+input[type=text], select {
+    width: 380px;
+    padding: 8px 12px;
+    margin: 2px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: #1A3A25;
+    color: #fff;
+    opacity: 0.5;
+  }
+.footer_text {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 200;
+    padding-top: 10px;
+}
+.footer_sns_wrap a img {
+    opacity: 0.5;
+}
+
+.footer_sns_wrap a img:hover {
+    opacity: 1;
 }
