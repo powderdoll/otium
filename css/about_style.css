@@ -63,11 +63,11 @@ body {
     margin: 0 auto;
     position: relative;
 }
-.header_wrap{
+/* .header_wrap{
     background-color: rgba(0, 0, 0, 0.1);
     height: 100px;   
     margin: 0px auto;
-}
+} */
 .inner_header {
     width: 1320px;
     margin: 0 auto;
@@ -99,9 +99,13 @@ body {
     margin: 0 50px;
     font-weight: 500;
     font-size: 17px;
-    padding-bottom: 9px;
+    padding-bottom: 5px;
     color: white;
 }
+.gnb li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
 
 .top_link {
     display: flex;

@@ -48,8 +48,8 @@ a {
 /* swiper */
 #banner {
     width: 1320px;
-    height: 500px;
-    margin: 50px auto;
+    height: 360px;
+    margin: 20px auto;
     position: relative;
 }
 
@@ -99,11 +99,11 @@ body {
     margin: 0 auto;
     position: relative;
 }
-.header_wrap{
+/* .header_wrap{
     background-color: rgba(0, 0, 0, 0.1);
     height: 100px;   
     margin: 0px auto;
-}
+} */
 .inner_header {
     width: 1320px;
     margin: 0 auto;
@@ -135,8 +135,11 @@ body {
     margin: 0 50px;
     font-weight: 500;
     font-size: 17px;
-    padding-bottom: 9px;
+    padding-bottom: 5px;
     color: white;
+}
+.gnb li a:hover {
+    border-bottom: 2px solid #fff;
 }
 
 .top_link {
@@ -198,7 +201,7 @@ body {
 }
 
 .section_text {
-    margin: 20px 0;
+    margin: 30px 0;
 }
 
 /* #container p{
@@ -322,13 +325,14 @@ body {
 }
 
 /* section3의 시작 */
-#section2 {
+#section3 {
     /* width: 1920px; */
     margin: 100px auto;
 }
 
 .name {
     text-align: left;
+    font-weight: 600;
 }
 
 .price {
@@ -389,26 +393,25 @@ body {
 }
 
 .banner_title {
-    font-family: "EB Garamond", serif;
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 300;
     /* font-style: italic; */
     color: #79604B;
 }
 
 .sub_btn {
     display: inline-block;
-    background-color: #A65E36;
     color: #fff;
+    background-color: #79604B;
     border-radius: 50px;
     padding: 5px 40px;
     margin: 50px 0;
 }
 
-/* .sub_btn:hover{
-    color: #A65E36;
-    background-color: #fff;
-} */
+.sub_btn:hover{
+    background-color: #A65E36;
+    color: #fff;
+}
 /* #section5 start */
 #section5 {
     margin: 100px auto;
@@ -616,7 +619,7 @@ body {
 .footer_left {
     position: absolute;
     top: 30px;
-    left: 30px;
+    left: 50px;
 }
 
 .footer_logo {
