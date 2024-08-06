@@ -56,6 +56,7 @@ body {
 
 #wrap {
     min-width: 1320px;
+    overflow: hidden;
 }
 
 #header {
@@ -97,13 +98,15 @@ body {
 .gnb li a {
     display: block;
     margin: 0 50px;
+    height: 35px;
     font-weight: 500;
     font-size: 17px;
-    padding-bottom: 5px;
+    /* padding-bottom: 5px; */
     color: white;
+    border-bottom: 2px solid transparent;
 }
 .gnb li a:hover {
-    border-bottom: 1px solid #fff;
+    border-bottom: 2px solid #fff;
 }
 
 
