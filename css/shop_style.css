@@ -235,14 +235,17 @@ img{
     justify-content: space-between;
 }
 .made-img{
-    width: 100%;
+    width: 50%;
 }
 .made-info{
+    width: 50%;
     background-color: #F3F4E8;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    padding: 0 70px;
+    /* padding: 0 70px; */
+    padding-left: 50px;
+    box-sizing: border-box;
 }
 .made-name{
     font-size: 30px;
@@ -281,8 +284,6 @@ img{
     height: 450px;
 }
 /* section4*/
-
-/* section2*/
 #section4{
     width: 1320px;
     margin: 50px auto;
@@ -292,16 +293,18 @@ img{
     justify-content: space-between;
 }
 .ritual-img{
-    width: 100%;
+    width: 50%;
     display: block;
 }
 .ritual-info{
+    width: 50%;
     background-color: #EFE9DF;
     color: #79604B;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    padding: 0 75px;
+    padding-left: 50px;
+    box-sizing: border-box;
 }
 .ritual-name{
     font-size: 30px;

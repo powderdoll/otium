@@ -338,6 +338,7 @@ body {
     position: relative;
     justify-content: space-evenly;
     display: flex;
+    overflow: hidden;
 }
 /* .center5{
     width: 1320px;
@@ -362,6 +363,8 @@ body {
     position: absolute;
     top: 0px;
     left: 0px; 
+    transition: transform 1s;
+    display: block;
 }
 .section5_T{
     position: absolute;
@@ -379,6 +382,10 @@ body {
     margin-left: 30px;
     box-sizing: border-box;
 }
+
+
+
+
 /* section6 시작 */
 #section6{
     width: 1320px;
