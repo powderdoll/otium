@@ -298,9 +298,9 @@ transform:translateY(-50%);}
     display: block;
     transition: transform 1s;
 }
-.exterior img:hover{
+/* .exterior img:hover{
     transform: scale(1.2);
-}
+} */
 .info{
     width: 50%;    
     text-align: left;
